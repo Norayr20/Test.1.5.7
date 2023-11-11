@@ -19,6 +19,7 @@ public class ConnectsAndSorts {
             for (int i = 0; i < secondLength; i++) {
                 mergedArray[firstLength + i] = secondArray[i];
             }
+        Arrays.sort(mergedArray);
         return mergedArray;
     }
 }
